@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>xpedf</title>
   <subtitle></subtitle>
-  <updated>2022-06-12T17:13:59+02:00</updated>
+  <updated>2022-06-12T19:06:46+02:00</updated>
   <author>
     <name>Alvaro Balada Cuartero</name>
     <uri>http://localhost:4000/</uri>
@@ -48,10 +48,8 @@
 
       Arch Linux és una distribución opensource caracterizada por su personalización i configuración. A diferencia de otras distribuciones, Arch linux no cuenta con ningun programa preinstalado, nisiquiera tiene un entorno de escritorio o interfaz gráfica.
 
-Instalación
-
 Instalaremos Arch linux en una máquina virtual, también és posible instalarlo en la maquina real desde un usb booteable.
-Empezaremos...
+Empezaremos descargando ...
     </summary>
   
 
