@@ -1,0 +1,230 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>xpedf</title>
+  <subtitle></subtitle>
+  <updated>2022-06-12T16:51:15+02:00</updated>
+  <author>
+    <name>Alvaro Balada Cuartero</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="es-ES"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator>
+  <rights> © 2022 Alvaro Balada Cuartero </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Instalación Arch Linux</title>
+    <link href="http://localhost:4000/posts/instalacion-arch-linux/" rel="alternate" type="text/html" title="Instalación Arch Linux" />
+    <published>2022-06-11T11:58:00+02:00</published>
+  
+    <updated>2022-06-11T11:58:00+02:00</updated>
+  
+    <id>http://localhost:4000/posts/instalacion-arch-linux/</id>
+    <content src="http://localhost:4000/posts/instalacion-arch-linux/" />
+    <author>
+      <name>Alvaro Balada Cuartero</name>
+    </author>
+
+  
+    
+    <category term="Linux" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Arch Linux és una distribución opensource caracterizada por su personalización i configuración. A diferencia de otras distribuciones, Arch linux no cuenta con ningun programa preinstalado, nisiquiera tiene un entorno de escritorio o interfaz gráfica.
+
+Instalación
+
+Instalaremos Arch linux en una máquina virtual, también és posible instalarlo en la maquina real desde un usb booteable.
+Empezaremos...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Enable Google Page Views</title>
+    <link href="http://localhost:4000/posts/enable-google-pv/" rel="alternate" type="text/html" title="Enable Google Page Views" />
+    <published>2021-01-04T00:32:00+01:00</published>
+  
+    <updated>2022-03-16T19:05:45+01:00</updated>
+  
+    <id>http://localhost:4000/posts/enable-google-pv/</id>
+    <content src="http://localhost:4000/posts/enable-google-pv/" />
+    <author>
+      <name>sille_bille</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="Tutorial" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      This post is to enable Page Views on the Chirpy theme based blog that you just built. This requires technical knowledge and it’s recommended to keep the google_analytics.pv.* empty unless you have a good reason. If your website has low traffic, the page views count would discourage you to write more blogs. With that said, let’s start with the setup.
+
+Set up Google Analytics
+
+Create GA account a...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Customize the Favicon</title>
+    <link href="http://localhost:4000/posts/customize-the-favicon/" rel="alternate" type="text/html" title="Customize the Favicon" />
+    <published>2019-08-10T18:34:00+02:00</published>
+  
+    <updated>2022-03-16T19:05:45+01:00</updated>
+  
+    <id>http://localhost:4000/posts/customize-the-favicon/</id>
+    <content src="http://localhost:4000/posts/customize-the-favicon/" />
+    <author>
+      <name>cotes</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="Tutorial" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      The favicons of Chirpy are placed in the directory assets/img/favicons/. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons.
+
+Generate the favicon
+
+Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and then go to the online tool Real Favicon Generator and click the button Select your Favicon image ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Getting Started</title>
+    <link href="http://localhost:4000/posts/getting-started/" rel="alternate" type="text/html" title="Getting Started" />
+    <published>2019-08-09T14:55:00+02:00</published>
+  
+    <updated>2022-03-16T19:05:45+01:00</updated>
+  
+    <id>http://localhost:4000/posts/getting-started/</id>
+    <content src="http://localhost:4000/posts/getting-started/" />
+    <author>
+      <name>cotes</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="Tutorial" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Prerequisites
+
+Follow the instructions in the Jekyll Docs to complete the installation of Ruby, RubyGems, Jekyll, and Bundler. In addition, Git is also required to be installed.
+
+Installation
+
+Creating a New Site
+
+There are two ways to create a new repository for this theme:
+
+
+  Using the Chirpy Starter - Easy to upgrade, isolates irrelevant project files so you can focus on writing.
+  Forking ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Writing a New Post</title>
+    <link href="http://localhost:4000/posts/write-a-new-post/" rel="alternate" type="text/html" title="Writing a New Post" />
+    <published>2019-08-08T08:10:00+02:00</published>
+  
+    <updated>2022-03-16T19:05:45+01:00</updated>
+  
+    <id>http://localhost:4000/posts/write-a-new-post/</id>
+    <content src="http://localhost:4000/posts/write-a-new-post/" />
+    <author>
+      <name>cotes</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="Tutorial" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      This post will guide you how to write a post on Chirpy theme. Even if you have previous experience with Jekyll, this article is worth reading, because many features require specific variables to be set.
+
+Naming and Path
+
+Create a new file named YYYY-MM-DD-TITLE.EXTENSION and put it in the _posts of the root directory. Please note that the EXTENSION must be one of md and markdown. If you want to...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
