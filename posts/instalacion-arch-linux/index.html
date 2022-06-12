@@ -969,6 +969,18 @@
       
 
     
+      
+
+      
+      
+
+      
+      
+      
+
+      
+
+    
 
     
 
@@ -1071,8 +1083,8 @@
 
 <!-- return element -->
 <span class="readtime" data-toggle="tooltip" data-placement="bottom"
-  title="512 palabras">
-  <em>2 min</em> de lectura</span>
+  title="560 palabras">
+  <em>3 min</em> de lectura</span>
 
     </div>
 
@@ -1213,6 +1225,8 @@ hwclock-w
 
 <p><img data-src="https://xpedf.github.io//images/120613:01:02.png" alt="gh-pages-sources" data-proofer-ignore></p>
 
+<h3 id="contraseñas-i-usuarios"><span class="mr-2">Contraseñas i usuarios</span><a href="#contraseñas-i-usuarios" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
 <p>Muy importante crear una nueva contraseña para el usuario root i crear un nuevo usuario con los siguientes comandos:</p>
 <div class="language-bash highlighter-rouge"><div class="code-header">
         <span data-label-text="Shell"><i class="fas fa-code small"></i></span>
@@ -1227,9 +1241,26 @@ hwclock-w
 </pre></td><td class="rouge-code"><pre>useradd alvaro <span class="nt">-m</span>
 passwd alvaro
 </pre></td></tr></tbody></table></code></div></div>
+
 <p>Reiniciaremos el sistema y se iniciará directamente el arch linux instalado en nuestro disco duro</p>
 
 <p><img data-src="https://xpedf.github.io//images/120618:59:51.png" alt="gh-pages-sources" data-proofer-ignore></p>
+
+<p>Una vez dentro, configuraremos el hostname (en mi caso será ALVARO) y el Networkmanager para habilitar el internet</p>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="¡Copiado!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre><span class="nb">echo </span>ALVARO <span class="o">&gt;&gt;</span> /etc/hostname
+
+systemctl start NetworkManager
+systemctl <span class="nb">enable </span>Networkmanager
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>Con este último paso, ya tendriamos Arch Linux instalado en nuestro disco duro</p>
 
 
 </div>
@@ -1352,40 +1383,6 @@ passwd alvaro
 
 
 
-  <div id="access-lastmod" class="post">
-    <div class="panel-heading">Actualizado recientemente</div>
-    <ul class="post-content pl-0 pb-1 ml-1 mt-2">
-      
-        
-        
-        
-      <li><a href="/posts/text-and-typography/">Text and Typography</a></li>
-      
-        
-        
-        
-      <li><a href="/posts/write-a-new-post/">Writing a New Post</a></li>
-      
-        
-        
-        
-      <li><a href="/posts/getting-started/">Getting Started</a></li>
-      
-        
-        
-        
-      <li><a href="/posts/customize-the-favicon/">Customize the Favicon</a></li>
-      
-        
-        
-        
-      <li><a href="/posts/enable-google-pv/">Enable Google Page Views</a></li>
-      
-    </ul>
-  </div> <!-- #access-lastmod -->
-
-
-
       
 
 
@@ -1427,291 +1424,6 @@ passwd alvaro
         
         
 
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
   
     
     
@@ -1749,25 +1461,7 @@ passwd alvaro
       <a class="post-tag" href="/tags/distribuci%C3%B3n-linux/">Distribución Linux</a>
     
       
-      <a class="post-tag" href="/tags/favicon/">favicon</a>
-    
-      
-      <a class="post-tag" href="/tags/getting-started/">getting started</a>
-    
-      
-      <a class="post-tag" href="/tags/google-analytics/">google analytics</a>
-    
-      
       <a class="post-tag" href="/tags/linux/">Linux</a>
-    
-      
-      <a class="post-tag" href="/tags/pageviews/">pageviews</a>
-    
-      
-      <a class="post-tag" href="/tags/typography/">typography</a>
-    
-      
-      <a class="post-tag" href="/tags/writing/">writing</a>
     
 
     </div>
@@ -1826,71 +1520,6 @@ passwd alvaro
 
   
     
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
 
 
 
@@ -1905,161 +1534,8 @@ passwd alvaro
     
     
   
-    
-    
-      
-      
-        
-        
-        
-      
-    
-  
-    
-    
-      
-      
-        
-        
-        
-      
-    
-  
-    
-    
-      
-      
-        
-        
-        
-          
 
 
-
-  <div id="related-posts" class="mt-5 mb-2 mb-sm-4">
-    <h3 class="pt-2 mt-1 mb-4 ml-1"
-      data-toc-skip>Lecturas adicionales</h3>
-    <div class="card-deck mb-4">
-    
-      
-      
-      <div class="card">
-        <a href="/posts/enable-google-pv/">
-          <div class="card-body">
-            <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-
-<em class="small"
-    data-ts="1609716720"
-    data-df="YYYY-MM-DD"
-    >
-  2021-01-04
-</em>
-
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Enable Google Page Views</h3>
-            <div class="text-muted small">
-              <p>
-                
-
-
-
-
-
-                This post is to enable Page Views on the Chirpy theme based blog that you just built. This requires technical knowledge and it’s recommended to keep the google_analytics.pv.* empty unless you have ...
-              </p>
-            </div>
-          </div>
-        </a>
-      </div>
-    
-      
-      
-      <div class="card">
-        <a href="/posts/customize-the-favicon/">
-          <div class="card-body">
-            <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-
-<em class="small"
-    data-ts="1565454840"
-    data-df="YYYY-MM-DD"
-    >
-  2019-08-10
-</em>
-
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Customize the Favicon</h3>
-            <div class="text-muted small">
-              <p>
-                
-
-
-
-
-
-                The favicons of Chirpy are placed in the directory assets/img/favicons/. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons...
-              </p>
-            </div>
-          </div>
-        </a>
-      </div>
-    
-      
-      
-      <div class="card">
-        <a href="/posts/getting-started/">
-          <div class="card-body">
-            <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-
-<em class="small"
-    data-ts="1565355300"
-    data-df="YYYY-MM-DD"
-    >
-  2019-08-09
-</em>
-
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Getting Started</h3>
-            <div class="text-muted small">
-              <p>
-                
-
-
-
-
-
-                Prerequisites
-
-Follow the instructions in the Jekyll Docs to complete the installation of Ruby, RubyGems, Jekyll, and Bundler. In addition, Git is also required to be installed.
-
-Installation
-
-Crea...
-              </p>
-            </div>
-          </div>
-        </a>
-      </div>
-    
-    </div> <!-- .card-deck -->
-  </div> <!-- #related-posts -->
 
 
     
@@ -2070,10 +1546,10 @@ Crea...
 
 <div class="post-navigation d-flex justify-content-between">
   
-  <a href="/posts/enable-google-pv/" class="btn btn-outline-primary"
+  <div class="btn btn-outline-primary disabled"
     prompt="Anterior">
-    <p>Enable Google Page Views</p>
-  </a>
+    <p>-</p>
+  </div>
   
 
   
@@ -2203,291 +1679,6 @@ Crea...
         
         
 
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
 
 
   <div id="access-tags">
@@ -2502,25 +1693,7 @@ Crea...
       <a class="post-tag" href="/tags/distribuci%C3%B3n-linux/">Distribución Linux</a>
     
       
-      <a class="post-tag" href="/tags/favicon/">favicon</a>
-    
-      
-      <a class="post-tag" href="/tags/getting-started/">getting started</a>
-    
-      
-      <a class="post-tag" href="/tags/google-analytics/">google analytics</a>
-    
-      
       <a class="post-tag" href="/tags/linux/">Linux</a>
-    
-      
-      <a class="post-tag" href="/tags/pageviews/">pageviews</a>
-    
-      
-      <a class="post-tag" href="/tags/typography/">typography</a>
-    
-      
-      <a class="post-tag" href="/tags/writing/">writing</a>
     
 
     </div>
